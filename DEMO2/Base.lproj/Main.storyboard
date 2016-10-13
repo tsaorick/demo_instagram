@@ -32,15 +32,16 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4IU-Fa-bfd">
-                                <frame key="frameInset" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="sb1-9p-zGN"/>
-                                    <tabBarItem systemItem="more" id="mxj-ve-lZe"/>
-                                </items>
-                            </tabBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="201506124" translatesAutoresizingMaskIntoConstraints="NO" id="fqm-G5-bne">
+                                <frame key="frameInset" minX="10" minY="74" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="45"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -51,6 +52,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="201506124" width="2512" height="2512"/>
         <image name="Add User Male Filled-50" width="20" height="20"/>
         <image name="Settings-50" width="20" height="20"/>
     </resources>

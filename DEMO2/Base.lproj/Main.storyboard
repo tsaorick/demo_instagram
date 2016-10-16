@@ -21,12 +21,13 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dPs-iA-O5a">
                                 <frame key="frameInset" minY="20" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="tsaorick" id="BOk-tY-X3s">
-                                        <barButtonItem key="leftBarButtonItem" image="Add User Male Filled-50" id="A1n-kp-x5v">
+                                        <barButtonItem key="leftBarButtonItem" image="Add User Male Filled-51" id="KMC-t8-vR8">
                                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" image="Settings-50" id="8Ws-n0-s33">
+                                        <barButtonItem key="rightBarButtonItem" image="Settings-51" id="klk-8a-b97">
                                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </barButtonItem>
                                     </navigationItem>
@@ -42,6 +43,157 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NzW-vz-jmM">
+                                <frame key="frameInset" height="44" maxY="354"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem image="menu list" width="75" id="6gA-V6-6jE"/>
+                                    <barButtonItem image="Bulleted List Filled-51" width="75" id="ZpR-wY-4PO">
+                                        <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                    </barButtonItem>
+                                    <barButtonItem image="Marker-51" width="75" id="IhG-1l-Zb2">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </barButtonItem>
+                                    <barButtonItem image="Clone-51" width="75" id="U38-AV-nA8">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9148" translatesAutoresizingMaskIntoConstraints="NO" id="fyu-lv-1Gb">
+                                <frame key="frameInset" minX="-59" minY="313" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9381" translatesAutoresizingMaskIntoConstraints="NO" id="ELl-Ov-Aby">
+                                <frame key="frameInset" minX="193" minY="439" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9289" translatesAutoresizingMaskIntoConstraints="NO" id="yAw-8Q-cmh">
+                                <frame key="frameInset" minX="-59" minY="439" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9457" translatesAutoresizingMaskIntoConstraints="NO" id="VYE-8E-A0y">
+                                <frame key="frameInset" minX="-59" minY="565" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9151" translatesAutoresizingMaskIntoConstraints="NO" id="87Z-L2-Dzx">
+                                <frame key="frameInset" minX="67" minY="313" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9302" translatesAutoresizingMaskIntoConstraints="NO" id="lAj-dW-DnJ">
+                                <frame key="frameInset" minX="67" minY="439" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9654" translatesAutoresizingMaskIntoConstraints="NO" id="eDF-WP-Rby">
+                                <frame key="frameInset" minX="67" minY="565" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9698" translatesAutoresizingMaskIntoConstraints="NO" id="Qdk-Bl-Qd0">
+                                <frame key="frameInset" minX="192" minY="565" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9267" translatesAutoresizingMaskIntoConstraints="NO" id="m1b-Cb-Wdh">
+                                <frame key="frameInset" minX="193" minY="313" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Rick/小悶" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tBF-B5-zDA">
+                                <frame key="frameInset" minX="10" minY="172" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="逛網路、看科技、玩App、賞文創、樂攝影、嚐新奇。" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7uJ-do-1L1">
+                                <frame key="frameInset" minX="10" minY="195" width="345" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="tsaorick.com/" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dkb-Dw-Q5r">
+                                <frame key="frameInset" minX="10" minY="212" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="翻譯年糕" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IUc-jZ-jtn">
+                                <frame key="frameInset" minX="10" minY="233" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="682" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ieq-HP-xg4">
+                                <frame key="frameInset" minX="146" minY="74" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="144" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="osp-a4-idK">
+                                <frame key="frameInset" minX="218" minY="74" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="133" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3No-H0-PS9">
+                                <frame key="frameInset" minX="290" minY="74" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="貼文" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="35H-4L-my4">
+                                <frame key="frameInset" minX="148" minY="92" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="粉絲人數" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZOx-Yp-2fd">
+                                <frame key="frameInset" minX="208" minY="92" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="追蹤中" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xob-di-19y">
+                                <frame key="frameInset" minX="289" minY="92" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="編輯個人檔案" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SwI-vn-uh6">
+                                <frame key="frameInset" minX="125" minY="123" width="234" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                            </textField>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qal-Ib-3za">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem image="Dog House-51" width="60" id="fgQ-4L-2E7">
+                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </barButtonItem>
+                                    <barButtonItem image="Search-51" width="60" id="E5L-5k-VcZ">
+                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </barButtonItem>
+                                    <barButtonItem image="Screenshot-51" width="60" id="BQA-Ww-gHa">
+                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </barButtonItem>
+                                    <barButtonItem image="Like-51" width="60" id="5em-xi-Ca2">
+                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </barButtonItem>
+                                    <barButtonItem image="Contacts-53" width="60" id="xPQ-hM-WSj">
+                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -53,7 +205,25 @@
     </scenes>
     <resources>
         <image name="201506124" width="2512" height="2512"/>
-        <image name="Add User Male Filled-50" width="20" height="20"/>
-        <image name="Settings-50" width="20" height="20"/>
+        <image name="Add User Male Filled-51" width="30" height="30"/>
+        <image name="Bulleted List Filled-51" width="30" height="30"/>
+        <image name="Clone-51" width="30" height="30"/>
+        <image name="Contacts-53" width="30" height="30"/>
+        <image name="Dog House-51" width="30" height="30"/>
+        <image name="IMG_9148" width="2448" height="2448"/>
+        <image name="IMG_9151" width="2448" height="2448"/>
+        <image name="IMG_9267" width="2272" height="2272"/>
+        <image name="IMG_9289" width="2373" height="2373"/>
+        <image name="IMG_9302" width="2393" height="2393"/>
+        <image name="IMG_9381" width="2448" height="2448"/>
+        <image name="IMG_9457" width="2386" height="2386"/>
+        <image name="IMG_9654" width="2448" height="2448"/>
+        <image name="IMG_9698" width="2448" height="2448"/>
+        <image name="Like-51" width="30" height="30"/>
+        <image name="Marker-51" width="30" height="30"/>
+        <image name="Screenshot-51" width="30" height="30"/>
+        <image name="Search-51" width="30" height="30"/>
+        <image name="Settings-51" width="30" height="30"/>
+        <image name="menu list" width="30" height="30"/>
     </resources>
 </document>

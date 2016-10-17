@@ -67,6 +67,10 @@
                                 <frame key="frameInset" minX="193" minY="439" width="244" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9698" translatesAutoresizingMaskIntoConstraints="NO" id="KZj-Nx-wML">
+                                <frame key="frameInset" minX="193" minY="565" width="244" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9289" translatesAutoresizingMaskIntoConstraints="NO" id="yAw-8Q-cmh">
                                 <frame key="frameInset" minX="-59" minY="439" width="244" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -83,12 +87,8 @@
                                 <frame key="frameInset" minX="67" minY="439" width="244" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9654" translatesAutoresizingMaskIntoConstraints="NO" id="eDF-WP-Rby">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9839" translatesAutoresizingMaskIntoConstraints="NO" id="eDF-WP-Rby">
                                 <frame key="frameInset" minX="67" minY="565" width="244" height="124"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9698" translatesAutoresizingMaskIntoConstraints="NO" id="Qdk-Bl-Qd0">
-                                <frame key="frameInset" minX="192" minY="565" width="244" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_9267" translatesAutoresizingMaskIntoConstraints="NO" id="m1b-Cb-Wdh">
@@ -217,8 +217,8 @@
         <image name="IMG_9302" width="2393" height="2393"/>
         <image name="IMG_9381" width="2448" height="2448"/>
         <image name="IMG_9457" width="2386" height="2386"/>
-        <image name="IMG_9654" width="2448" height="2448"/>
         <image name="IMG_9698" width="2448" height="2448"/>
+        <image name="IMG_9839" width="2383" height="2383"/>
         <image name="Like-51" width="30" height="30"/>
         <image name="Marker-51" width="30" height="30"/>
         <image name="Screenshot-51" width="30" height="30"/>
